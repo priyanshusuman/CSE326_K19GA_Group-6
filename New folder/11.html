@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+	<style>
+		
+
+	</style>
+</head>
+
+<body class="formBody">
+	<span style="text-align: center;" >
+	<form class="formClass">
+		<p style="margin-right: auto; margin-left: auto;color: red; font-family: helvetica;text-decoration: underline; "><h1>Registration</h1></p>
+		
+		<b>-Name</b> <input type="text" placeholder="Enter the name" ><br><br></li>
+		<b>-Email</b> <input type="email" placeholder="Enter your email"  ><br><br></li>
+		<b>-Age</b> <input type="text" placeholder="Enter your age" ><br></li>
+		
+		
+		<br><label for="profession">-<b>profession<b></label>
+		<select id="profession" name="profession">
+			<option value="profession">Student</option>
+			<option value="profession">Businessmen</option>
+			<option value="profession">Service</option>
+			<option value="profession">other</option>
+		</select>
+
+
+</p>
+<label for="freetime">Timetable</label>
+<select id="freetime" name="freetime">
+<option value="freetime">between 6-12</option>
+<option value="freetime">between 12-18</option>
+<option value="freetime">between 18-22</option></select>
+</p>
+
+		<span class="a"><b>do yo like the form</b></span>
+		<input type="radio" name="like" value="yes" checked>Yes
+		<input type="radio" name="like" value="very much">No<br>
+		<br><span> Any querry</span>
+		<br><textarea rows="10" column="10">
+		</textarea><br>
+		<span">Resister for</span>
+		<br><input list="example">
+		<datalist id="example">
+			<option>Marathon</option>
+			<option>Run India</option>
+			<option>Blood camp</option>
+		</datalist><br><br><br>
+</form></span>
+
+		<div class="formDiv">
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<button class="open-button" onclick="openForm()">Submit</button></div>
+
+	
+	<div class="form-popup" id="myForm">
+    <div class="popup">
+    <h1>Thanks for Registration</h1> <br>
+    <h2>We will Contact You Shortly</h2>
+    <button type="button" class="hide" onclick="closeForm()">Close</button>
+    </div> </div>
+
+
+  <script src="JavaScript.js"></script>  
+</body></html>
